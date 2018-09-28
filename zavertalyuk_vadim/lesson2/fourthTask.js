@@ -7,6 +7,6 @@ function countFibonacci(number) {
     }
 }
 
-console.log("Fourth task:");
+console.log("Fourth task with number of elements is :" + 5);
 console.log(countFibonacci(5));
 console.log("");

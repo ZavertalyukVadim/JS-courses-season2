@@ -1,4 +1,4 @@
-let arr = [1, 2, 3];
+let massive = [1, 2, 3];
 
 function countSumm(massive) {
     let totalSum = 0;
@@ -9,5 +9,5 @@ function countSumm(massive) {
 }
 
 console.log("First task:");
-console.log('Sum = ' + countSumm(arr) + ' of ' + arr);
+console.log('Sum = ' + countSumm(massive) + ' of ' + massive);
 console.log("");
