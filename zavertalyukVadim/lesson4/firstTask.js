@@ -1,4 +1,4 @@
-function Animal(brand, fuelTank, ownerFullName) {
+function Car(brand, fuelTank, ownerFullName) {
     this.brand = brand;
     this.fuelTank = fuelTank;
     this.ownerFullName = ownerFullName;
@@ -27,17 +27,17 @@ function Animal(brand, fuelTank, ownerFullName) {
     };
 }
 
-let animal = new Animal("BMW", "Full", 'Vad Zav');
+let car = new Car("BMW", "Full", 'Vad Zav');
 
-console.log(animal.getBrand());
-console.log(animal.getFuelTank());
-console.log(animal.getOwnerFullName());
+console.log(car.getBrand());
+console.log(car.getFuelTank());
+console.log(car.getOwnerFullName());
 
-animal.setBrand("Mercedes");
-animal.setFuelTank("LOw");
-animal.setOwnerFullName("not yours");
+car.setBrand("Mercedes");
+car.setFuelTank("LOw");
+car.setOwnerFullName("not yours");
 
 console.log("");
-console.log(animal.getBrand());
-console.log(animal.getFuelTank());
-console.log(animal.getOwnerFullName());
+console.log(car.getBrand());
+console.log(car.getFuelTank());
+console.log(car.getOwnerFullName());
